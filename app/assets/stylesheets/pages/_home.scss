@@ -1,1 +1,40 @@
 // Specific CSS for your home-page
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 500px;
+}
+
+.banner h1 {
+  margin: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Alice', serif;
+}
+
+
+.btn:hover {
+  background-color: #B7DC7F;
+  color: black;
+}
+
+.container-cards {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card {
+  text-align: center;
+  height: 100px;
+  width: 30%;
+  height: 400px;
+}
+
